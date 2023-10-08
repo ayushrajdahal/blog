@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Ayush Raj Dahal"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/ayushrajdahal
+      - icon: globe
+        href: https://ayushraj.vercel.app/
+format:
+  html:
+    theme: litera
+    css: styles.css
+
+
+

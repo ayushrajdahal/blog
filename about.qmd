@@ -1,0 +1,16 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ayushrajdahal
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/ayushrajdahal
+
+---
+
+Welcome to my blog! This is something I started as a challenge at the beginning of my fall break, to document my learnings as much as I can.
