@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Welcome to my blog! This is something I started as a challenge at the beginning of my fall break, to document my learnings as much as I can."
+    "text": "A Deep Dive into PyTorch’s Automatic Differentiation Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Sanzal\nA web app for gaining insights about Nepali Twitter space by analyzing the public data about Twitter users in Nepal. [link to proof of concept]\n\n\nHeart Failure Prediction\nHeart Failure Prediction using Decision Trees, Random Forest, and XGBoost models.\n\n\nBreathing Rate Algorithms\nPeak Finding and Fast Fourier Transform Algorithms for calculating Breathing Rate from Accelerometer/Gyroscope data. [link to nbviewer]\n\n\nML-Revision\nA collection of projects and notes I created while revising Machine Learning concepts. Includes: Linear Regression, Logistic Regression, Decision Trees, K-Means Clustering, Random Forest, XGBoost, Neural Networks\n\n\nApravasi\nA socio-economic analysis of Nepalese population living in the US, created as a part of my research fellowship at Incubate Nepal."
   },
   {
     "objectID": "posts/autograd-from-scratch/index.html",
@@ -23,8 +30,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ayush Raj’s blog",
+    "title": "Ayush Raj Dahal",
     "section": "",
-    "text": "A Deep Dive into PyTorch’s Automatic Differentiation Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
+    "text": "👋Hi there! I am Ayush Raj Dahal.\nI am a Software Developer currently living in New Orleans, USA. I have been into programming for two years now and have worked on projects mostly related to Data Science, some of which you can find here. You can also read my blogs here\nPlease feel free to email/message me if you want to discuss projects!"
   }
 ]

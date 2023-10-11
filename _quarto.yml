@@ -5,14 +5,15 @@ website:
   title: "Ayush Raj Dahal"
   navbar:
     right:
-      - about.qmd
+      - blog.qmd
+      - projects.qmd
       - icon: github
         href: https://github.com/ayushrajdahal
       - icon: globe
         href: https://ayushraj.vercel.app/
 format:
   html:
-    theme: litera
+    theme: lux
     css: styles.css
 
 

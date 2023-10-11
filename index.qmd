@@ -1,14 +1,23 @@
 ---
-title: "Ayush Raj's blog"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Ayush Raj Dahal"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ayushrajdahal
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/ayushrajdahal
+    - icon: envelope
+      text: E-mail
+      href: mailto:info@ayushraj.com.np
+
 ---
 
+👋Hi there! I am Ayush Raj Dahal.
 
+I am a Software Developer currently living in New Orleans, USA. I have been into programming for two years now and have worked on projects mostly related to Data Science, some of which you can find [here](/projects). You can also read my blogs [here](/blog)
+
+Please feel free to email/message me if you want to discuss projects!
