@@ -147,9 +147,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of to implement a simple autograd engine. This post assumes that you have a basic familiarity with Python and a little bit of Calculus.</p>
+<p>In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of Autograd and how to implement a simple autograd engine from scratch. This post assumes that you have a basic familiarity with Python and a little bit of Calculus.</p>
+<section id="contextualizing-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="contextualizing-the-problem">Contextualizing the Problem</h2>
+<p>In order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks - which is the only case we are concerned with really, it is actually a completely independent concept that has nothing to do with Neural Networks. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.</p>
+<p>If that didn’t make any sense to you, don’t worry about it. Stick with me, and I’ll explain using visualizations and code.</p>
+<section id="numpy-vs.-pytorch" class="level3">
+<h3 class="anchored" data-anchor-id="numpy-vs.-pytorch">NumPy vs.&nbsp;PyTorch</h3>
+<p>Other things that separate the two:</p>
+<ul>
+<li>Parallel runtime &amp; GPU usage</li>
+<li>Data type restriction</li>
+<li>What is a tensor, tensor vs.&nbsp;Array</li>
+</ul>
+<p>The main one that we’re concerned with:</p>
+<ul>
+<li>Automatic Differentiation Engine</li>
+</ul>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ul>
+<li></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

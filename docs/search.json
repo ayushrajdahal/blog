@@ -11,13 +11,20 @@
     "href": "posts/autograd-from-scratch/index.html",
     "title": "A Deep Dive into PyTorch’s Automatic Differentiation Engine",
     "section": "",
-    "text": "In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of to implement a simple autograd engine. This post assumes that you have a basic familiarity with Python and a little bit of Calculus."
+    "text": "In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of Autograd and how to implement a simple autograd engine from scratch. This post assumes that you have a basic familiarity with Python and a little bit of Calculus."
+  },
+  {
+    "objectID": "posts/autograd-from-scratch/index.html#contextualizing-the-problem",
+    "href": "posts/autograd-from-scratch/index.html#contextualizing-the-problem",
+    "title": "A Deep Dive into PyTorch’s Automatic Differentiation Engine",
+    "section": "Contextualizing the Problem",
+    "text": "Contextualizing the Problem\nIn order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks - which is the only case we are concerned with really, it is actually a completely independent concept that has nothing to do with Neural Networks. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.\nIf that didn’t make any sense to you, don’t worry about it. Stick with me, and I’ll explain using visualizations and code.\n\nNumPy vs. PyTorch\nOther things that separate the two:\n\nParallel runtime & GPU usage\nData type restriction\nWhat is a tensor, tensor vs. Array\n\nThe main one that we’re concerned with:\n\nAutomatic Differentiation Engine\n\n\n\nReferences"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ayush Raj’s blog",
     "section": "",
-    "text": "A Deep Dive into PyTorch’s Automatic Differentiation Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\n  \n\n\n\n\nStochastic Gradient Descent from Scratch\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
+    "text": "A Deep Dive into PyTorch’s Automatic Differentiation Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
   }
 ]

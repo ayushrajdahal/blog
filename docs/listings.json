@@ -2,8 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/autograd-from-scratch/index.html",
-      "/posts/sgd-from-scratch/index.html"
+      "/posts/autograd-from-scratch/index.html"
     ]
   }
 ]
