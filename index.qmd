@@ -1,5 +1,5 @@
 ---
-title: "Ayush Raj Dahal"
+# title: "Ayush Raj Dahal"
 image: profile.jpg
 about:
   template: jolla
