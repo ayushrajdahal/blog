@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 page-layout: article
+search_exclude: true
 title-block-banner: true
 ---
 
