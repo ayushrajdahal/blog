@@ -5,7 +5,8 @@ website:
   title: "Ayush Raj Dahal"
   navbar:
     right:
-      - blog.qmd
+      - text: "Blog"
+        file: blog.qmd
       - projects.qmd
       - icon: github
         href: https://github.com/ayushrajdahal
@@ -13,7 +14,9 @@ website:
         href: https://ayushraj.vercel.app/
 format:
   html:
-    theme: lux
+    theme: 
+      light: litera
+      # dark: [litera, theme-dark.scss]
     css: styles.css
 
 
