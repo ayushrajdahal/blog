@@ -8,19 +8,6 @@ title-block-banner: true
 
 A web app for gaining insights about Nepali Twitter space by analyzing the public data about Twitter users in Nepal. <a href="https://nbviewer.org/github/ayushrajdahal/NepaliTwitterSentimentAnalysis/blob/master/Sentiment%20Analysis.ipynb" target="_blank">[link to proof of concept]</a>
 
-### <a href="https://nbviewer.org/github/ayushrajdahal/100daysofML/blob/main/projects/5_heart_failure_prediction.ipynb" target="_blank">Heart Failure Prediction</a>
-
-Heart Failure Prediction using Decision Trees, Random Forest, and XGBoost models.
-
-### <a href="https://github.com/ayushrajdahal/BreathingRateAlgorithms" target="_blank">Breathing Rate Algorithms</a>
-
-Peak Finding and Fast Fourier Transform Algorithms for calculating Breathing Rate from Accelerometer/Gyroscope data. <a href="https://nbviewer.org/github/ayushrajdahal/BreathingRateAlgorithms/blob/master/lowPassPeakCount.ipynb" target="_blank">[link to nbviewer]</a>
-
-### <a href="https://github.com/ayushrajdahal/ML-Revision" target="_blank">ML-Revision</a>
-
-A collection of projects and notes I created while revising Machine Learning concepts. Includes: <i>Linear Regression, Logistic Regression, Decision Trees, K-Means Clustering, Random Forest, XGBoost,
-Neural Networks</i>
-
 ### <a href="https://fb.watch/gh7RGsXom_/" target="_blank">Apravasi</a>
 
 A socio-economic analysis of Nepalese population living in the US, created as a part of my research fellowship at <a href="https://www.incubatenepal.com/" target="_blank">Incubate Nepal</a>.
