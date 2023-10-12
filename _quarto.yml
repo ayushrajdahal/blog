@@ -7,11 +7,11 @@ website:
     right:
       - text: "Blog"
         file: blog.qmd
-      - projects.qmd
+      # - projects.qmd
       - icon: github
         href: https://github.com/ayushrajdahal
-      # - icon: linkedin
-      #   href: https://www.linkedin.com/in/ayushrajdahal
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ayushrajdahal
       # - icon: globe
       #   href: https://ayushraj.vercel.app/
 format:

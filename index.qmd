@@ -18,6 +18,6 @@ about:
 
 **👋Hi there! I am Ayush Raj Dahal.**
 
-I am a Software Developer currently living in New Orleans, USA. I have been into programming for two years now and have worked on projects mostly related to Data Science, some of which you can find [here](/projects). You can also read my blogs [here](/blog).
+I am a Software Developer currently living in New Orleans, USA. I have been into programming for two years now and have worked on projects mostly related to Data Science and Web Development, some of which you can find in my <a href="https://github.com/ayushrajdahal" target="_blank">GitHub profile</a>. You can also read my blogs [here](/blog).
 
-Please feel free to email/message me if you want to discuss any projects!
+Please feel free to email/message me if you would like to discuss any projects!
