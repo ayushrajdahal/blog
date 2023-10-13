@@ -9,7 +9,7 @@
 <meta name="author" content="Ayush Raj Dahal">
 <meta name="dcterms.date" content="2023-10-11">
 
-<title>Ayush Raj Dahal - A Deep Dive into PyTorch’s Automatic Differentiation Engine</title>
+<title>Ayush Raj Dahal - A Deep Dive into PyTorch’s Autograd Engine</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">A Deep Dive into PyTorch’s Automatic Differentiation Engine</h1>
+      <h1 class="title">A Deep Dive into PyTorch’s Autograd Engine</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Neural Networks</div>
                 <div class="quarto-category">Machine Learning</div>
@@ -149,8 +149,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contextualizing-the-problem" id="toc-contextualizing-the-problem" class="nav-link active" data-scroll-target="#contextualizing-the-problem">Contextualizing the Problem</a>
   <ul class="collapse">
   <li><a href="#numpy-vs.-pytorch" id="toc-numpy-vs.-pytorch" class="nav-link" data-scroll-target="#numpy-vs.-pytorch">NumPy vs.&nbsp;PyTorch</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -160,14 +160,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of Autograd and how to implement a simple autograd engine from scratch. This post assumes that you have a basic familiarity with Python and a little bit of Calculus.</p>
+<p>In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again, and possibly even learn more in the process. Hopefully, by the end of this post, you will also have a good understanding of autograd and how to implement a simple version of it from scratch. This post assumes that you have a basic familiarity with Python and a tiny bit of Calculus. Even if you don’t, I will try my best to explain everything as clearly as possible. So, let’s get started!</p>
 <section id="contextualizing-the-problem" class="level2">
 <h2 class="anchored" data-anchor-id="contextualizing-the-problem">Contextualizing the Problem</h2>
-<p>In order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks - which is the only case we are concerned with really, it is actually a completely independent concept that has nothing to do with Neural Networks. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.</p>
-<p>If that didn’t make any sense to you, don’t worry about it. Stick with me, and I’ll explain using visualizations and code.</p>
+<p>In order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks in Deep Learning – which is pretty much the only case we will be concerned with as we move forward in our AI journey – it is actually a completely independent concept that has nothing to do with Neural Networks, and can be used in applications as broad as weather forecasting and [xyz]. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.</p>
+<p>If terms like “Neural Networks” and “Deep Learning” doesn’t make any sense to you yet, don’t worry about it. As you’ll see in this as well as some of my upcoming blog posts, those concepts are actually a lot, lot simpler than they sound. We will be breaking everything down to the first principles and create everything we need from scratch. So, stick with me. You’re in for a fun ride!</p>
 <section id="numpy-vs.-pytorch" class="level3">
 <h3 class="anchored" data-anchor-id="numpy-vs.-pytorch">NumPy vs.&nbsp;PyTorch</h3>
-<p>Other things that separate the two:</p>
+<p>Things that are similar between the two:</p>
+<ul>
+<li>Both provide a way to create n-dimensional arrays</li>
+<li>Both provide a way to perform mathematical operations on those arrays</li>
+<li>Both are fast and optimized, sometimes even by a factor of thousands, as compared to standard Python operations (since Python is a high-level language that needs a lot of memory and CPU cycles to perform simple operations)</li>
+</ul>
+<p>Things that separate the two:</p>
 <ul>
 <li>Parallel runtime &amp; GPU usage</li>
 <li>Data type restriction</li>
@@ -178,14 +184,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Automatic Differentiation Engine</li>
 </ul>
 </section>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 <ul>
 <li></li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

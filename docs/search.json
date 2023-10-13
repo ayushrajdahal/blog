@@ -4,34 +4,34 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A Deep Dive into PyTorch’s Automatic Differentiation Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Sanzal\nA web app for gaining insights about Nepali Twitter space by analyzing the public data about Twitter users in Nepal. [link to proof of concept]\n\n\nApravasi\nA socio-economic analysis of Nepalese population living in the US, created as a part of my research fellowship at Incubate Nepal."
+    "text": "A Deep Dive into PyTorch’s Autograd Engine\n\n\n\n\n\n\n\nNeural Networks\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 11, 2023\n\n\nAyush Raj Dahal\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/autograd-from-scratch/index.html",
     "href": "posts/autograd-from-scratch/index.html",
-    "title": "A Deep Dive into PyTorch’s Automatic Differentiation Engine",
+    "title": "A Deep Dive into PyTorch’s Autograd Engine",
     "section": "",
-    "text": "In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again. Hopefully, by the end of this post, you will have a better understanding of Autograd and how to implement a simple autograd engine from scratch. This post assumes that you have a basic familiarity with Python and a little bit of Calculus."
+    "text": "In an attempt of understanding the underlying mechanism of PyTorch’s autograd engine, I created its mini-version that does the same job, but on a much lower scale. This blog post explains the core ideas behind that project. This is mostly just to test my own understanding - yet again, and possibly even learn more in the process. Hopefully, by the end of this post, you will also have a good understanding of autograd and how to implement a simple version of it from scratch. This post assumes that you have a basic familiarity with Python and a tiny bit of Calculus. Even if you don’t, I will try my best to explain everything as clearly as possible. So, let’s get started!"
   },
   {
     "objectID": "posts/autograd-from-scratch/index.html#contextualizing-the-problem",
     "href": "posts/autograd-from-scratch/index.html#contextualizing-the-problem",
-    "title": "A Deep Dive into PyTorch’s Automatic Differentiation Engine",
+    "title": "A Deep Dive into PyTorch’s Autograd Engine",
     "section": "Contextualizing the Problem",
-    "text": "Contextualizing the Problem\nIn order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks - which is the only case we are concerned with really, it is actually a completely independent concept that has nothing to do with Neural Networks. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.\nIf that didn’t make any sense to you, don’t worry about it. Stick with me, and I’ll explain using visualizations and code.\n\nNumPy vs. PyTorch\nOther things that separate the two:\n\nParallel runtime & GPU usage\nData type restriction\nWhat is a tensor, tensor vs. Array\n\nThe main one that we’re concerned with:\n\nAutomatic Differentiation Engine\n\n\n\nReferences"
+    "text": "Contextualizing the Problem\nIn order to understand the need of an Autograd engine, we will first need to understand what makes its existence relevant in the first place. Although it is commonly associated with Neural Networks in Deep Learning – which is pretty much the only case we will be concerned with as we move forward in our AI journey – it is actually a completely independent concept that has nothing to do with Neural Networks, and can be used in applications as broad as weather forecasting and [xyz]. It is the idea of computing derivatives of some variable with reference to all the variables that were used to result in that value.\nIf terms like “Neural Networks” and “Deep Learning” doesn’t make any sense to you yet, don’t worry about it. As you’ll see in this as well as some of my upcoming blog posts, those concepts are actually a lot, lot simpler than they sound. We will be breaking everything down to the first principles and create everything we need from scratch. So, stick with me. You’re in for a fun ride!\n\nNumPy vs. PyTorch\nThings that are similar between the two:\n\nBoth provide a way to create n-dimensional arrays\nBoth provide a way to perform mathematical operations on those arrays\nBoth are fast and optimized, sometimes even by a factor of thousands, as compared to standard Python operations (since Python is a high-level language that needs a lot of memory and CPU cycles to perform simple operations)\n\nThings that separate the two:\n\nParallel runtime & GPU usage\nData type restriction\nWhat is a tensor, tensor vs. Array\n\nThe main one that we’re concerned with:\n\nAutomatic Differentiation Engine"
+  },
+  {
+    "objectID": "posts/autograd-from-scratch/index.html#references",
+    "href": "posts/autograd-from-scratch/index.html#references",
+    "title": "A Deep Dive into PyTorch’s Autograd Engine",
+    "section": "References",
+    "text": "References"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ayush Raj Dahal",
     "section": "",
-    "text": "👋Hi there! I am Ayush Raj Dahal.\nI am a Software Developer currently based in New Orleans, USA. I have been immersed in the world of programming for two years now, working primarily on Data Science and Web Development projects – some of which you can explore on my GitHub. I sometimes write blog posts explaining stuff I learn or build, which you can check out here.\nPlease feel free to email/message me if you would like to discuss projects!"
+    "text": "👋Hi there! I am Ayush Raj Dahal.\nI am a Software Developer currently based in New Orleans, USA. I have been working primarily on Data Science and Web Development projects – some of which you can explore on my GitHub. I sometimes write blog posts explaining stuff I learn or build. You can check them out here.\nPlease feel free to email/message me if you would like to discuss projects!"
   }
 ]
