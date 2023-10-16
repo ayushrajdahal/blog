@@ -13,11 +13,12 @@ about:
     - icon: envelope
       text: E-mail
       href: mailto:info@ayushraj.com.np
-
+# format: html
+#   email-obfuscation: javascript
 ---
 
 **👋Hi there! I am Ayush Raj Dahal.**
 
-I am a Software Developer currently based in New Orleans, USA. I have been working primarily on Data Science and Web Development projects -- some of which you can explore on my <a href="https://github.com/ayushrajdahal" target="_blank">GitHub</a>. I sometimes write blog posts explaining stuff I learn or build. You can check them out [here](/blog).
+I am a Software Developer currently based in New Orleans, USA. I work primarily on Data Science and Web Development-related projects, some of which you can explore on my <a href="https://github.com/ayushrajdahal" target="_blank">GitHub</a>. I also sometimes write blog posts explaining stuff I learn or build. You can check them out [here](/blog).
 
 Please feel free to email/message me if you would like to discuss projects!
